@@ -1,0 +1,9 @@
+{
+  "name": "HTML5Starter",
+  "private": "true",
+  "dependencies": {
+    "html5-boilerplate": "^5.3.0",
+    "kinvey-html5-sdk": "^3.2.2",
+    "todc-bootstrap": "^3.0.2"
+  }
+}
