@@ -1,5 +1,5 @@
-# generator-kinvey-html [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Yeoman generator to scaffold an HTML app using the Kinvey platform.
+# Kinvey HTML App Generator
+Yeoman generator to scaffold an HTML app using the Kinvey platform.
 
 ## Installation
 
@@ -16,21 +16,17 @@ Then generate your new project:
 yo kinvey-html
 ```
 
-## Getting To Know Yeoman
-
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
-
 ## License
 
-Apache-2.0 © [Thomas Conner &lt;thomas@kinvey.com&gt;](http://kinvey.com)
+Copyright (c) 2016 Kinvey Inc.
 
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
+in compliance with the License. You may obtain a copy of the License at
 
-[npm-image]: https://badge.fury.io/js/generator-kinvey-html.svg
-[npm-url]: https://npmjs.org/package/generator-kinvey-html
-[travis-image]: https://travis-ci.org/ThomasConner/generator-kinvey-html.svg?branch=master
-[travis-url]: https://travis-ci.org/ThomasConner/generator-kinvey-html
-[daviddm-image]: https://david-dm.org/ThomasConner/generator-kinvey-html.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/ThomasConner/generator-kinvey-html
+ http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in
+writing, software distributed under the License
+is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied. See the License for the specific language governing permissions and limitations under
+the License.

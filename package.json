@@ -39,7 +39,7 @@
     "yeoman-assert": "^2.0.0",
     "yeoman-test": "^1.0.0"
   },
-  "repository": "ThomasConner/generator-kinvey-html",
+  "repository": "KinveyApps/generator-kinvey-html",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
