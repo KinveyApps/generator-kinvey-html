@@ -1,6 +1,6 @@
 {
   "name": "generator-kinvey-html",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Yeoman generator to scaffold an HTML app using the Kinvey platform.",
   "homepage": "http://devcenter.kinvey.com/html5",
   "author": {
