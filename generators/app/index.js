@@ -126,8 +126,8 @@ module.exports = yeoman.Base.extend({
 
     // Copy _index.js
     this.fs.copyTpl(
-      this.templatePath('static/js/_index.js'),
-      this.destinationPath('static/js/index.js'),
+      this.templatePath('static/js/_app.js'),
+      this.destinationPath('static/js/app.js'),
       config
     );
 

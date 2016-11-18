@@ -79,7 +79,21 @@
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/todc-bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/bower_components/kinvey-html5-sdk/dist/kinvey-html5-sdk.js"></script>
-    <script src="/js/index.js"></script>
+    <script src="/js/app.js"></script>
     <script src="/js/<%= collection %>.js"></script>
+    <script type="text/javascript">
+      var app = window.app;
+
+      // Register events
+      $('#refresh-button').on('click', function() {
+        app['<%= collection %>'].refresh();
+      });
+
+      // Initialize
+      app.initialize()
+        .then(function() {
+          app['<%= collection %>'].refresh();
+        });
+    </script>
   </body>
 </html>
