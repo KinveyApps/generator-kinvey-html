@@ -26,6 +26,8 @@
           // Update the drowdown with the account name
           $('#account-dropdown').html((activeUser.data.firstname || 'User') + ' ' + (activeUser.data.lastname || '') + ' <span class="caret"></span>');
         }
+
+        return activeUser;
       });
     }
   };
